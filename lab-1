@@ -7,7 +7,7 @@
 using namespace std;
 float f(float x)
 {
-	return (pow(x, 4))+(5*x)-7;
+	return (pow(x, 4))+(5*x)-7;//Тут ваша формула
 }
 
 float n(float a, float b, float e)
@@ -29,6 +29,6 @@ float n(float a, float b, float e)
 }
 void main()
 {
-	cout << n(0,100,0.001) << "\n";
+	cout << n(0,100,0.001) << "\n";//В цих полях можна міняти значення, остання цифра, це похибка.
 	cin.get();
 }
