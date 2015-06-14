@@ -17,7 +17,7 @@ float n(float a, float b, float e)
 	cout << "#  дiлення      ||    f(x)       #"<<"\n";
 	cout << "##################################"<<"\n";
 	float x = (a + b) / 2;
-	while (abs(f(x)) > e)
+	while (abs(f(b)) > e)
 	{
 		if (f(x) > 0)
 			b = x;
